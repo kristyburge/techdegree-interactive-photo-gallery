@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  font-weight: normal;
+  font-family: 'Noto Serif', Georgia, Times, "Times New Roman", serif;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2em 0;
+  max-width: 1024px;
+}
+
+input, section {
+  margin: 0 auto;
+}
+
+input[type="search"] {
+  display: block;
+  width: 50%;
+  margin: 0 auto 2em;
+  padding: .3125em;
+  border: 2px solid #999;
+  border-radius: 5px;
+  color: #2F4F4F;
+  outline: none;
+}
+
+input[type="search"]:focus {
+  border: 2px solid #0EBFE9;
+}
+
+/* Warning: non-standard */
+input::placeholder {
+  color: #999;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+
+  main {
+    width: 90%;
+    justify-content: space-between;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  main {
+    width: 70%;
+    justify-content: space-between;
+  }
+
+}
