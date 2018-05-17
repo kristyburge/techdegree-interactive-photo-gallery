@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Interactive Photo Gallery</title>
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,44 +13,45 @@
   <main>
     <input type="search" id="search" name="search" placeholder="Search ...">
     <section>
-      <a href="images/01.jpg">
+      <a href="images/01.jpg" data-lightbox="gallery" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="Hay Bales">
         <img src="images/thumbnails/01.jpg" alt="Hay Bales">
       </a>
-      <a href="images/02.jpg">
+      <a href="images/02.jpg" data-lightbox="gallery" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here." data-alt="Lake">
         <img src="images/thumbnails/02.jpg" alt="Lake">
       </a>
-      <a href="images/03.jpg">
+      <a href="images/03.jpg" data-lightbox="gallery" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below." data-alt="Canyon">
         <img src="images/thumbnails/03.jpg" alt="Canyon">
       </a>
-      <a href="images/04.jpg">
+      <a href="images/04.jpg" data-lightbox="gallery" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." data-alt="Iceberg">
         <img src="images/thumbnails/04.jpg" alt="Iceberg">
       </a>
-      <a href="images/05.jpg">
+      <a href="images/05.jpg" data-lightbox="gallery" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." data-alt="Desert">
         <img src="images/thumbnails/05.jpg" alt="Desert">
       </a>
-      <a href="images/06.jpg">
+      <a href="images/06.jpg" data-lightbox="gallery" data-title="Fall is coming, I love when the leaves on the trees start to change color." data-alt="Fall">
         <img src="images/thumbnails/06.jpg" alt="Fall">
       </a>
-      <a href="images/07.jpg">
+      <a href="images/07.jpg" data-lightbox="gallery" data-title="I drove past this plantation yesterday, everything is so green!" data-alt="Plantation">
         <img src="images/thumbnails/07.jpg" alt="Plantation">
       </a>
-      <a href="images/08.jpg">
+      <a href="images/08.jpg" data-lightbox="gallery" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!" data-alt="Dunes">
         <img src="images/thumbnails/08.jpg" alt="Dunes">
       </a>
-      <a href="images/09.jpg">
+      <a href="images/09.jpg" data-lightbox="gallery" data-title="We enjoyed a quiet stroll down this countryside lane." data-alt="Countryside Lane">
         <img src="images/thumbnails/09.jpg" alt="Countryside Lane">
       </a>
-      <a href="images/10.jpg">
+      <a href="images/10.jpg" data-lightbox="gallery" data-title="Sunset at the coast! The sky turned a lovely shade of orange." data-alt="Sunset">
         <img src="images/thumbnails/10.jpg" alt="Sunset">
       </a>
-      <a href="images/11.jpg">
+      <a href="images/11.jpg" data-lightbox="gallery" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking." data-alt="Cave">
         <img src="images/thumbnails/11.jpg" alt="Cave">
       </a>
-      <a href="images/12.jpg">
+      <a href="images/12.jpg" data-lightbox="gallery" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." data-alt="Bluebells">
         <img src="images/thumbnails/12.jpg" alt="Bluebells">
       </a>
     </section>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js" integrity="sha256-gbqsBwBVZ0bNBUY4I5rT6yRhMbB9roODov0c8qE4iNE=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
